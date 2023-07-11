@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pipedrive_erpnext *.css
+recursive-include pipedrive_erpnext *.csv
+recursive-include pipedrive_erpnext *.html
+recursive-include pipedrive_erpnext *.ico
+recursive-include pipedrive_erpnext *.js
+recursive-include pipedrive_erpnext *.json
+recursive-include pipedrive_erpnext *.md
+recursive-include pipedrive_erpnext *.png
+recursive-include pipedrive_erpnext *.py
+recursive-include pipedrive_erpnext *.svg
+recursive-include pipedrive_erpnext *.txt
+recursive-exclude pipedrive_erpnext *.pyc

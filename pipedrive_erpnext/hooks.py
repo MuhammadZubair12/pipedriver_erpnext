@@ -113,23 +113,28 @@ app_license = "MIT"
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-#	"all": [
-#		"pipedrive_erpnext.tasks.all"
-#	],
-#	"daily": [
-#		"pipedrive_erpnext.tasks.daily"
-#	],
-#	"hourly": [
-#		"pipedrive_erpnext.tasks.hourly"
-#	],
-#	"weekly": [
-#		"pipedrive_erpnext.tasks.weekly"
-#	],
-#	"monthly": [
-#		"pipedrive_erpnext.tasks.monthly"
-#	],
-# }
+scheduler_events = {
+    "cron":{
+        "* * * * *": [
+            "pipedrive_erpnext.pipedrive_erpnext.doctype.pipedrive_integration.pipedrive_integration.test_pipedrive_token"
+        ]
+    }
+	# "all": [
+	# 	"pipedrive_erpnext.tasks.all"
+	# ],
+	# "daily": [
+	# 	"pipedrive_erpnext.tasks.daily"
+	# ],
+	# "hourly": [
+	# 	"pipedrive_erpnext.tasks.hourly"
+	# ],
+	# "weekly": [
+	# 	"pipedrive_erpnext.tasks.weekly"
+	# ],
+	# "monthly": [
+	# 	"pipedrive_erpnext.tasks.monthly"
+	# ],
+}
 
 # Testing
 # -------

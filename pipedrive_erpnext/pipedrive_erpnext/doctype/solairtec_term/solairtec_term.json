@@ -1,0 +1,246 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-18 15:01:30.604150",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "agb_enautark",
+  "haftungsausschluss_enautark",
+  "enautark_ug_angebotsbestatigung",
+  "enautark_ug_widerrufsbelehrung_and_muster_widerrufsformular",
+  "vertragsbedingungen_enautark",
+  "sales_invoice_pdf_section",
+  "s_one",
+  "s_two",
+  "s_three",
+  "column_break_10",
+  "s_four",
+  "s_five",
+  "column_break_12",
+  "q_one",
+  "q_two",
+  "q_three",
+  "column_break_17",
+  "q_four",
+  "q_five",
+  "htmls_format_section",
+  "hs_one",
+  "hs_two",
+  "hs_three",
+  "sadad",
+  "hs_four",
+  "hs_five",
+  "column_break_24",
+  "hq_one",
+  "hq_two",
+  "hq_three",
+  "ewqeq",
+  "hq_four",
+  "hq_five"
+ ],
+ "fields": [
+  {
+   "fieldname": "agb_enautark",
+   "fieldtype": "Text Editor",
+   "hidden": 1,
+   "label": "AGB Enautark"
+  },
+  {
+   "fieldname": "haftungsausschluss_enautark",
+   "fieldtype": "Text Editor",
+   "hidden": 1,
+   "label": "Haftungsausschluss Enautark"
+  },
+  {
+   "fieldname": "enautark_ug_angebotsbestatigung",
+   "fieldtype": "Markdown Editor",
+   "hidden": 1,
+   "label": "Enautark UG Angebotsbestatigung"
+  },
+  {
+   "fieldname": "enautark_ug_widerrufsbelehrung_and_muster_widerrufsformular",
+   "fieldtype": "Markdown Editor",
+   "hidden": 1,
+   "label": "Enautark UG Widerrufsbelehrung and Muster Widerrufsformular"
+  },
+  {
+   "fieldname": "vertragsbedingungen_enautark",
+   "fieldtype": "Markdown Editor",
+   "hidden": 1,
+   "label": "Vertragsbedingungen Enautark"
+  },
+  {
+   "fieldname": "sales_invoice_pdf_section",
+   "fieldtype": "Section Break",
+   "label": "Sales Invoice Pdf"
+  },
+  {
+   "default": "0",
+   "fieldname": "s_one",
+   "fieldtype": "Check",
+   "label": "Agb Enautark"
+  },
+  {
+   "default": "0",
+   "fieldname": "s_two",
+   "fieldtype": "Check",
+   "label": "Widerrufsbelehrung"
+  },
+  {
+   "default": "0",
+   "fieldname": "s_three",
+   "fieldtype": "Check",
+   "label": "Muster-Widerrufsformular"
+  },
+  {
+   "default": "0",
+   "fieldname": "s_four",
+   "fieldtype": "Check",
+   "label": "Allgemeine Gesch\u00e4fts"
+  },
+  {
+   "default": "0",
+   "fieldname": "s_five",
+   "fieldtype": "Check",
+   "label": "Vertragsbedingungen"
+  },
+  {
+   "bold": 1,
+   "fieldname": "column_break_12",
+   "fieldtype": "Section Break",
+   "label": "Quotation Pdf"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_one",
+   "fieldtype": "Check",
+   "label": "Agb Enautark"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_two",
+   "fieldtype": "Check",
+   "label": "Widerrufsbelehrung"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_three",
+   "fieldtype": "Check",
+   "label": "Muster-Widerrufsformular"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_four",
+   "fieldtype": "Check",
+   "label": "Allgemeine Gesch\u00e4fts"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_five",
+   "fieldtype": "Check",
+   "label": "Vertragsbedingungen"
+  },
+  {
+   "fieldname": "htmls_format_section",
+   "fieldtype": "Section Break",
+   "label": "Sales Invoice Html Format"
+  },
+  {
+   "fieldname": "hs_one",
+   "fieldtype": "HTML Editor",
+   "label": "AGB Enautark"
+  },
+  {
+   "fieldname": "hs_two",
+   "fieldtype": "HTML Editor",
+   "label": "Widerrufsbelehrung"
+  },
+  {
+   "fieldname": "hs_three",
+   "fieldtype": "HTML Editor",
+   "label": "Muster-Widerrufsformular"
+  },
+  {
+   "fieldname": "hs_four",
+   "fieldtype": "HTML Editor",
+   "label": "Allgemeine Gesch\u00e4fts"
+  },
+  {
+   "fieldname": "hs_five",
+   "fieldtype": "HTML Editor",
+   "label": "Vertragsbedingungen"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Section Break",
+   "label": "Quotation Html Format"
+  },
+  {
+   "fieldname": "hq_one",
+   "fieldtype": "HTML Editor",
+   "label": "AGB Enautark"
+  },
+  {
+   "fieldname": "hq_two",
+   "fieldtype": "HTML Editor",
+   "label": "Haftungsausschluss Enautark"
+  },
+  {
+   "fieldname": "hq_three",
+   "fieldtype": "HTML Editor",
+   "label": "Muster-Widerrufsformular"
+  },
+  {
+   "fieldname": "hq_four",
+   "fieldtype": "HTML Editor",
+   "label": "Allgemeine Gesch\u00e4fts"
+  },
+  {
+   "fieldname": "hq_five",
+   "fieldtype": "HTML Editor",
+   "label": "Vertragsbedingungen"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sadad",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ewqeq",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-07-25 18:08:32.398278",
+ "modified_by": "Administrator",
+ "module": "Pipedrive Erpnext",
+ "name": "Solairtec term",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
